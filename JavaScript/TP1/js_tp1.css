@@ -1,0 +1,74 @@
+body {
+    background-color: #7d1f37;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+#conteneur {
+    height: 100;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background-color: #be4061;
+    border: 2px 10px
+}
+
+button {
+    background-color: #be4061;
+    color: #fd8ba8;
+    height: 40px;
+    width: 100px;
+    /* align-items: center; */
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+}
+
+.laNote {
+    margin: 50px;
+    display: flex;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    box-shadow: 10px 10px 24px 0px;
+    top: 50px;
+    left: 40px;
+    flex-direction: column;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.tache {
+    background-color: #be4061;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.tache div {
+    margin: 5px;
+    color: #fd8ba8;
+}
+
+textarea {
+    height: 300px;
+    width: auto;
+    background-color: #ca8195;
+    /*margin: 2px 2px;*/
+}
+
+img {
+    height: 20px;
+    width: 15px;
+}

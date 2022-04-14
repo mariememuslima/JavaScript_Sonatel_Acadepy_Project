@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js_tp3_mine.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="js_tp3_mine.css">
+    <title>TP 3 JS</title>
+</head>
+
+<body>
+    <div id="container">
+        <h2>Password Generator</h2>
+        <div id="resultContainer">
+            <span id="result"></span>
+            <button class="btn" id="clipboard" onclick="copyPassword()">
+				<img src="clipboard-solid.svg" alt="copy">
+			</button>
+        </div>
+        <div id="param">
+            <div id="parametres"><label for="length">Longueur du mot de passe</label><input type="number" max="20" min="15" id="length"></div>
+            <div id="parametres"><label for="upper">Contient des Lettres Majuscules</label><input type="checkbox" id="upper"></div>
+            <div id="parametres"><label for="lower">Contient des Lettres Minuscules</label><input type="checkbox" id="lower"></div>
+            <div id="parametres"><label for="number">Contient des Nombres</label><input type="checkbox" id="number"></div>
+            <div id="parametres"><label for="symbol">Contient des Caratères spéciaux</label><input type="checkbox" id="symbol"></div>
+            <button id="button">GÉNÉRER LE MOT DE PASSE</button>
+        </div>
+    </div>
+</body>
+
+</html>
